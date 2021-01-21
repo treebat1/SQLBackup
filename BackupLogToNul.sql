@@ -1,0 +1,1 @@
+backup log [UBSP_Content_CL_Bi] to DISK = 'Nul:'
