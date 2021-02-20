@@ -36,4 +36,4 @@ JOIN msdb.dbo.backupmediafamily M ON M.media_set_id=S.media_set_id
 WHERE backup_set_id = ( SELECT max(backup_set_id)
                     FROM msdb..backupset S
                     JOIN msdb..backupmediafamily M ON M.media_set_id=S.media_set_id
-                    WHERE S.database_name = 'HomeDepot' and s.type = 'D')
+                    WHERE S.database_name = 'Test' and s.type = 'D')
