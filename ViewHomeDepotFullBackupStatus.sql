@@ -2,7 +2,7 @@
 --HomeDepotFullBackupSpecific
 
 
-use HomeDepot
+use Test
 go
 select Percent_Complete
 , DATEDIFF(minute, start_time, GETDATE()) AS Minutes_Running
